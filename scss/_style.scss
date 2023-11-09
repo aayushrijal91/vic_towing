@@ -1,0 +1,44 @@
+header {
+    background: imgUrl('banner.jpg') center top, #ffffff;
+
+    section.form {
+        box-shadow: 0 0 0 12px #ffffff;
+    
+        @media screen and (max-width: 540px) {
+            box-shadow: 0 0 0 8px #ffffff;
+        }
+    
+        form {
+            label {
+                font-family: 'Raleway', sans-serif;
+                color: #ffffff;
+                text-transform: capitalize;
+                font-weight: 600;
+    
+                @media screen and (max-width: 540px) {
+                    display: none;
+                }
+            }
+    
+            .form-control {
+                margin-top: 8px;
+                width: 100%;
+                border: 0;
+                background: #424242;
+                height: 70px;
+                color: #ffffff;
+                padding: 8px 20px;
+                font-weight: 600;
+                font-size: 18px;
+                box-shadow: none;
+                outline: none;
+    
+                @media screen and (max-width: 540px) {
+                    height: 47px;
+                    margin-top: 0;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
