@@ -8,7 +8,7 @@
                             <?= renderImg('logo.png', 'logo') ?>
                         </a>
                     </div>
-                    <div class="w-1/2 hidden md:block">
+                    <div class="w-1/2 hidden lg:block">
                         <article class="bg-primary text-white text-sm font-semibold h-[60px] flex items-center justify-center rounded-full pl-3 pr-5 py-2 space-x-3 pointer-events-none">
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="14.9144" cy="14.6868" r="14.658" fill="white" />
@@ -41,7 +41,6 @@
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M13.7029 5.20451C13.702 5.19868 13.702 5.19313 13.7008 5.1873C13.6935 5.15405 13.6798 5.12314 13.6617 5.09484C13.66 5.09193 13.6597 5.08843 13.658 5.08551C13.6559 5.0823 13.6524 5.08084 13.6501 5.07793C13.6308 5.05197 13.609 5.02776 13.5812 5.00909L13.5754 5.00501L13.5748 5.00472L7.16429 0.634094C7.06512 0.566427 6.93475 0.566427 6.83558 0.634094L0.425915 5.00443C0.425915 5.00443 0.42504 5.00501 0.424456 5.0053L0.418915 5.00909C0.391498 5.02776 0.369331 5.05197 0.350081 5.07793C0.347748 5.08113 0.344248 5.08259 0.342206 5.0858C0.340165 5.08872 0.340165 5.09222 0.338415 5.09514C0.320331 5.12372 0.306623 5.15434 0.299331 5.18759C0.298165 5.19343 0.298165 5.19897 0.29729 5.20451C0.294956 5.21968 0.291748 5.23455 0.291748 5.25001V11.9583C0.291748 12.7625 0.945956 13.4167 1.75008 13.4167H12.2501C13.0542 13.4167 13.7084 12.7625 13.7084 11.9583V5.25001C13.7084 5.23455 13.7052 5.21968 13.7029 5.20451ZM7.00008 1.22793L12.899 5.25001L7.00008 9.27209L1.10112 5.25001L7.00008 1.22793Z" fill="white" />
                             </svg>
-
                         </a>
                     </div>
                 </div>
@@ -49,9 +48,27 @@
         </div>
     </nav>
 
-    <section class="banner py-9 md:py-40">
+    <section class="banner py-9 md:py-24 lg:py-40">
         <div class="container">
-            <h1 class="capitalize text-[60px] md:text-8xl text-white font-articulat-heavy text-center leading-none"><span class="text-primary">24/7 Prompt Emergency</span> Towing for all makes and models</h1>
+            <div class="flex justify-center pb-7 lg:hidden">
+                <article class="bg-primary text-white text-sm font-semibold h-[60px] flex items-center justify-center rounded-full pl-3 pr-5 py-2 space-x-3 pointer-events-none">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="14.9144" cy="14.6868" r="14.658" fill="white" />
+                        <g clip-path="url(#clip0_302_7)">
+                            <path d="M21.5472 10.0083H19.0285L16.1998 8.1095C16.2246 8.00868 16.2409 7.90521 16.2409 7.79732C16.2409 7.06593 15.6457 6.47073 14.9143 6.47073C14.1829 6.47073 13.5878 7.06593 13.5878 7.79732C13.5878 7.90521 13.6041 8.00913 13.6289 8.1095L10.8002 10.0083H8.28143C8.03689 10.0083 7.83923 10.2064 7.83923 10.4505V20.1787C7.83923 20.4228 8.03689 20.6209 8.28143 20.6209H21.5472C21.7918 20.6209 21.9894 20.4228 21.9894 20.1787V10.4505C21.9894 10.2064 21.7918 10.0083 21.5472 10.0083ZM12.2293 17.0834H9.70927V16.4661L10.557 15.6087C10.8612 15.2907 11.4714 14.7221 11.1437 14.4285C11.0465 14.3422 10.8214 14.3007 10.5649 14.4439C10.4535 14.5063 10.327 14.5987 10.1864 14.7203L9.67124 14.1171C9.84989 13.9571 10.0002 13.8425 10.1223 13.774C10.3951 13.6197 10.6852 13.5613 11.0036 13.5613C11.3962 13.5613 11.7982 13.6904 12.0166 14.0185C12.1895 14.2799 12.1953 14.6058 12.1117 14.8892C12.0321 15.1581 11.8628 15.3805 11.67 15.5826C11.5519 15.706 10.916 16.3095 10.916 16.3095H12.2293V17.0834ZM15.1911 16.4112H14.8086V17.0834H13.8823V16.4112H12.4973V15.7223L13.9415 13.6108H14.8086V15.7104H15.1911V16.4112ZM16.11 17.1307H15.2884L16.5827 13.5609H17.4048L16.11 17.1307ZM12.3868 10.0083L14.1144 8.84885C14.3377 9.01865 14.6128 9.1239 14.9143 9.1239C15.2159 9.1239 15.491 9.01865 15.7143 8.84885L17.4419 10.0083H12.3868ZM20.1052 14.1693L18.8821 17.0834H17.9111L19.1028 14.3926H17.5998V13.6161H20.1057L20.1052 14.1693Z" fill="#2AD347" />
+                            <path d="M13.8823 15.7108V15.3071C13.8823 15.2819 13.8924 14.8194 13.9035 14.7964C13.6908 15.1528 13.7235 15.0948 13.3101 15.7108H13.8823Z" fill="#2AD347" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_302_7">
+                                <rect width="14.1502" height="14.1502" fill="white" transform="translate(7.83923 6.47073)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+    
+                    <p>We Are Available 24/7</p>
+                </article>
+            </div>
+            <h1 class="capitalize text-[60px] lg:text-8xl text-white font-articulat-heavy text-center leading-none"><span class="text-primary">24/7 Prompt Emergency</span> Towing for all makes and models</h1>
 
             <p class="text-center text-white text-sm md:text-lg py-4 md:py-5">Our experienced team understands the challenges of unexpected breakdowns, and we're here to ensure your vehicle is safely transported to its destination</p>
 
@@ -66,11 +83,11 @@
         </div>
     </section>
 
-    <div class="container pb-9 md:pb-24">
-        <section class="form rounded-t-[30px] md:rounded-[30px] bg-dark-grey pt-12 pb-7 md:py-12 px-4 relative mx-5 md:mx-0">
+    <div class="container pb-9 md:pb-12 lg:pb-24">
+        <section class="form rounded-t-[30px] md:rounded-[30px] bg-dark-grey pt-12 pb-7 md:py-12 px-4 relative mx-5 lg:mx-0">
             <div class="flex flex-wrap justify-between items-center gap-y-8">
                 <div class="w-full xl:w-5/12 md:px-6">
-                    <h2 class="text-3xl md:text-7xl text-white font-articulat-heavy capitalize leading-none text-center xl:text-start">We specialize in <span class="text-primary">prompt and reliable</span> Assistance</h2>
+                    <h2 class="text-3xl md:text-5xl lg:text-7xl text-white font-articulat-heavy capitalize leading-none text-center xl:text-start">We specialize in <span class="text-primary">prompt and reliable</span> Assistance</h2>
                 </div>
 
                 <div class="w-full xl:w-7/12 md:px-6">
@@ -113,8 +130,8 @@
                         <?= renderImg('emergency-towing.jpg', 'lib', 'h-full w-full object-cover object-center') ?>
                         <div class="overlay absolute w-full bottom-0">
                             <?= renderImg('slope.png', 'lib', 'w-full') ?>
-                            <article class="bg-primary text-center p-5 md:pb-12 text-white">
-                                <h4 class="font-extrabold capitalize text-3xl md:text-[40px]">24/7 prompt Emergency towing</h4>
+                            <article class="bg-primary text-center p-5 lg:pb-12 text-white">
+                                <h4 class="font-extrabold capitalize text-3xl lg:text-[40px] leading-none">24/7 prompt Emergency towing</h4>
                             </article>
                         </div>
                     </article>
@@ -124,8 +141,8 @@
                         <?= renderImg('60-mins-response.jpg', 'lib', 'h-full w-full object-cover object-center') ?>
                         <div class="overlay absolute w-full bottom-0">
                             <?= renderImg('slope.png', 'lib', 'w-full') ?>
-                            <article class="bg-primary text-center p-5 md:pb-12 text-white">
-                                <h4 class="font-extrabold capitalize text-3xl md:text-[40px]">60mins<br /> response time</h4>
+                            <article class="bg-primary text-center p-5 lg:pb-12 text-white">
+                                <h4 class="font-extrabold capitalize text-3xl lg:text-[40px] leading-none">60mins<br /> response time</h4>
                             </article>
                         </div>
                     </article>
@@ -135,8 +152,8 @@
                         <?= renderImg('no-hidden-cost.jpg', 'lib', 'h-full w-full object-cover object-center') ?>
                         <div class="overlay absolute w-full bottom-0">
                             <?= renderImg('slope.png', 'lib', 'w-full') ?>
-                            <article class="bg-primary text-center p-5 md:pb-12 text-white">
-                                <h4 class="font-extrabold capitalize text-3xl md:text-[40px]">No<br /> hidden costs</h4>
+                            <article class="bg-primary text-center p-5 lg:pb-12 text-white">
+                                <h4 class="font-extrabold capitalize text-3xl lg:text-[40px] leading-none">No<br /> hidden costs</h4>
                             </article>
                         </div>
                     </article>
@@ -146,9 +163,9 @@
     </div>
 </header>
 
-<section class="services bg-dark rounded-t-[30px] pt-12 md:pt-24 pb-7">
+<section class="services bg-dark rounded-t-[30px] pt-12 md:pt-16 lg:pt-24 pb-7">
     <div class="container">
-        <h2 class="text-center text-[40px] md:text-[80px] font-articulat-heavy leading-none text-white capitalize"><span class="text-primary">We are flexible, Affordable</span> And Cater to each Individual Client's Needs.</h2>
+        <h2 class="text-center text-[40px] md:text-[60px] lg:text-[80px] font-articulat-heavy leading-none text-white capitalize"><span class="text-primary">We are flexible, Affordable</span> And Cater to each Individual Client's Needs.</h2>
 
         <p class="text-white text-sm text-center leading-loose font-raleway mx-auto xl:w-9/12 py-7">Our experienced team understands the challenges of unexpected breakdowns, and we're here to ensure your vehicle is safely transported to its destination. With a focus on customer satisfaction, Vic Towing Group is committed to delivering seamless towing experiences whenever you require them.</p>
 
@@ -164,7 +181,7 @@
                     <?= $phone_number ?>
                 </a>
             </div>
-            <div class="w-1/2 m:w-fit">
+            <div class="w-1/2 md:w-fit">
                 <a href="tel:<?= $phone_number ?>" class="bg-primary hover:bg-primary-dark duration-150 text-white text-sm md:text-xl font-semibold h-[60px] md:min-w-[216px] flex items-center justify-center gap-x-2 rounded-full p-3">
                     <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.69783 10.3646C9.38561 10.545 9.03563 10.6395 8.67996 10.6395C8.32428 10.6395 7.9743 10.545 7.66208 10.3646L0.180664 6.04309V12.1391C0.180664 12.9347 0.479175 13.6978 1.01053 14.2604C1.54188 14.823 2.26255 15.1391 3.014 15.1391H14.3473C15.0988 15.1391 15.8194 14.823 16.3508 14.2604C16.8822 13.6978 17.1807 12.9347 17.1807 12.1391V6.04309L9.69783 10.3646Z" fill="white" />
@@ -175,8 +192,8 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap md:flex-nowrap md:flex-row md:space-x-3 gap-y-4 pt-20">
-            <div class="w-full md-w-1/3 lg:w-1/4">
+        <div class="flex flex-wrap lg:flex-nowrap lg:flex-row lg:space-x-3 gap-y-4 pt-20">
+            <div class="w-full md:w-1/2 lg:w-1/4 md:px-1.5 lg:px-0">
                 <article class="relative h-[470px] w-full rounded-xl overflow-hidden flex justify-center items-end">
                     <?= renderImg('emergency-breakdowns.jpg', 'lib', 'w-full h-full object-cover absolute') ?>
 
@@ -188,7 +205,7 @@
                 </article>
             </div>
 
-            <div class="w-full md-w-1/3 lg:w-1/4">
+            <div class="w-full md:w-1/2 lg:w-1/4 md:px-1.5 lg:px-0">
                 <article class="relative h-[470px] w-full rounded-xl overflow-hidden flex justify-center items-end">
                     <?= renderImg('all-type-of-machinery.jpg', 'lib', 'w-full h-full object-cover absolute') ?>
 
@@ -200,7 +217,7 @@
                 </article>
             </div>
 
-            <div class="w-full md-w-1/3 lg:w-1/4">
+            <div class="w-full md:w-1/2 lg:w-1/4 md:px-1.5 lg:px-0">
                 <article class="relative h-[470px] w-full rounded-xl overflow-hidden flex justify-center items-end">
                     <?= renderImg('towing-containers.jpg', 'lib', 'w-full h-full object-cover absolute') ?>
 
@@ -212,7 +229,7 @@
                 </article>
             </div>
 
-            <div class="w-full md-w-1/3 lg:w-1/4">
+            <div class="w-full md:w-1/2 lg:w-1/4 md:px-1.5 lg:px-0">
                 <article class="relative h-[470px] w-full rounded-xl overflow-hidden flex justify-center items-end">
                     <?= renderImg('caravans-boats.jpg', 'lib', 'w-full h-full object-cover absolute') ?>
 
@@ -227,18 +244,18 @@
     </div>
 </section>
 
-<section class="bg-primary pb-5 md:pb-0">
+<section class="bg-primary pb-5 lg:pb-0">
     <?= renderImg('anchor-dark.png', 'lib', 'w-full') ?>
 
-    <div class="container pt-11 md:pt-20">
-        <h2 class="text-center text-white font-articulat-heavy capitalize text-[40px] md:text-[80px] leading-none">Tow Trucks <span class="text-dark">That Go The extra mile</span></h2>
+    <div class="container pt-11 md:pt-16 lg:pt-20">
+        <h2 class="text-center text-white font-articulat-heavy capitalize text-[40px] md:text-[60px] lg:text-[80px] leading-none">Tow Trucks <span class="text-dark">That Go The extra mile</span></h2>
 
         <p class="text-white text-sm text-center leading-loose font-raleway mx-auto xl:w-9/12 py-6">
             We understand the stress of having our vehicles break down when we least expect it. That is why at Vic Towing Group we are dedicated to providing all our clients with prompt service with towing arranged in under 60 minutes.
         </p>
 
         <div class="flex flex-row items-center justify-center space-x-3">
-            <div class="w-full md-w-1/3 lg:w-1/4">
+            <div class="w-full md:w-1/3 lg:w-1/4">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary text-sm md:text-xl font-semibold h-[60px] md:min-w-[216px] flex items-center justify-center gap-x-2 rounded-full p-3">
                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.7992 11.8498L10.1986 10.6175C9.92835 10.4886 9.62573 10.4588 9.33794 10.5327C9.05015 10.6065 8.7934 10.78 8.60775 11.0259L7.85829 12.0255C6.62958 11.1844 5.58363 10.0729 4.79057 8.76547L5.72764 7.96604C5.95798 7.76809 6.12045 7.49439 6.1897 7.18764C6.25896 6.88088 6.23111 6.55831 6.1105 6.2702L4.9619 3.48905C4.83305 3.17937 4.60525 2.92858 4.31914 2.78141C4.03304 2.63424 3.70722 2.60027 3.39981 2.68554L1.19832 3.29813C0.879291 3.3867 0.602062 3.59759 0.41965 3.89049C0.237237 4.18339 0.162442 4.53773 0.209567 4.88575C0.619809 7.92287 1.94114 10.7366 3.97579 12.9058C6.01044 15.075 8.64898 16.483 11.4965 16.919C11.8228 16.9683 12.1547 16.8876 12.4288 16.6922C12.7029 16.4969 12.8998 16.2007 12.982 15.8603L13.5563 13.512C13.6362 13.1842 13.6038 12.8367 13.465 12.532C13.3263 12.2274 13.0902 11.9855 12.7992 11.8498Z" fill="#2AD347" />
@@ -249,7 +266,7 @@
                     <?= $phone_number ?>
                 </a>
             </div>
-            <div class="w-full md-w-1/3 lg:w-1/4">
+            <div class="w-full md:w-1/3 lg:w-1/4">
                 <a href="tel:<?= $phone_number ?>" class="bg-white text-primary text-sm md:text-xl font-semibold h-[60px] md:min-w-[216px] flex items-center justify-center gap-x-2 rounded-full p-3">
                     <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.69783 10.3646C9.38561 10.545 9.03563 10.6395 8.67996 10.6395C8.32428 10.6395 7.9743 10.545 7.66208 10.3646L0.180664 6.04309V12.1391C0.180664 12.9347 0.479175 13.6978 1.01053 14.2604C1.54188 14.823 2.26255 15.1391 3.014 15.1391H14.3473C15.0988 15.1391 15.8194 14.823 16.3508 14.2604C16.8822 13.6978 17.1807 12.9347 17.1807 12.1391V6.04309L9.69783 10.3646Z" fill="#2AD347" />
@@ -266,16 +283,16 @@
 
 <section class="bg-dark-grey py-14 md:py-24 rounded-[30px]">
     <div class="container">
-        <div class="flex flex-wrap md:flex-row md:flex-nowrap justify-between items-center gap-y-4">
-            <div class="w-full md:w-7/12">
-                <h3 class="text-white capitalize font-articulat-heavy text-[33px] md:text-[80px] leading-none text-center md:text-start"><span class="text-primary">Same Day</span> Emergency service</h3>
+        <div class="flex flex-wrap lg:flex-row lg:flex-nowrap justify-between items-center gap-y-4">
+            <div class="w-full lg:w-7/12">
+                <h3 class="text-white capitalize font-articulat-heavy text-[33px] md:text-[60px] lg:text-[80px] leading-none text-center lg:text-start"><span class="text-primary">Same Day</span> Emergency service</h3>
             </div>
-            <div class="w-full md:w-5/12">
-                <p class="text-white text-sm md:text-2xl text-center md:text-start">
+            <div class="w-full lg:w-5/12">
+                <p class="text-white text-sm md:text-2xl text-center lg:text-start">
                     That is why at Vic Towing Group we are dedicated to providing all our clients with prompt service with towing arranged in under 60 minutes.
                 </p>
 
-                <div class="flex flex-row items-center space-x-3 pt-7">
+                <div class="flex flex-row items-center justify-center lg:justify-start space-x-3 pt-7">
                     <div class="w-1/2 md:w-fit">
                         <a href="tel:<?= $phone_number ?>" class="bg-primary hover:bg-primary-dark duration-150 text-white text-sm md:text-xl font-semibold h-[60px] md:min-w-[216px] flex items-center justify-center gap-x-2 rounded-full p-3">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +304,7 @@
                             <?= $phone_number ?>
                         </a>
                     </div>
-                    <div class="w-1/2 m:w-fit">
+                    <div class="w-1/2 md:w-fit">
                         <a href="tel:<?= $phone_number ?>" class="bg-primary hover:bg-primary-dark duration-150 text-white text-sm md:text-xl font-semibold h-[60px] md:min-w-[216px] flex items-center justify-center gap-x-2 rounded-full p-3">
                             <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.69783 10.3646C9.38561 10.545 9.03563 10.6395 8.67996 10.6395C8.32428 10.6395 7.9743 10.545 7.66208 10.3646L0.180664 6.04309V12.1391C0.180664 12.9347 0.479175 13.6978 1.01053 14.2604C1.54188 14.823 2.26255 15.1391 3.014 15.1391H14.3473C15.0988 15.1391 15.8194 14.823 16.3508 14.2604C16.8822 13.6978 17.1807 12.9347 17.1807 12.1391V6.04309L9.69783 10.3646Z" fill="white" />
