@@ -5,7 +5,7 @@ $site = "Vic Towing Group";
 $phone_number = "1300 000 000";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = 'info@victowinggroup.com.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 

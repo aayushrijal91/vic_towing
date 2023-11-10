@@ -32,8 +32,8 @@ function imgSquash() {
 function scripts() {
     const scriptsList = [
         './node_modules/jquery/dist/jquery.min.js',
-        './node_modules/slick-carousel/slick/slick.min.js',
-        // './node_modules/aos/dist/aos.js',
+        // './node_modules/slick-carousel/slick/slick.min.js',
+        './node_modules/aos/dist/aos.js',
         './scripts/main.js',
     ];
 
