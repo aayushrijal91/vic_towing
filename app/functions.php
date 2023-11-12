@@ -2,8 +2,8 @@
 include __DIR__ . '/env.php';
 
 $site = "Vic Towing Group";
-$phone_number = "1300 000 000";
-$admin_email = 'arijal@aiims.com.au';
+$phone_number = "(03) 9122 8541";
+$admin_email = 'arijal@aiims.com.au'; // 'victowinggroup@gmail.com';
 $bcc_email = "";
 $no_reply_email = 'info@victowinggroup.com.au';
 $recaptcha_client_secret = $client_secret;
